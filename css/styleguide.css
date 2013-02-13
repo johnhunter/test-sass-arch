@@ -1,0 +1,19 @@
+/** partial: framework/main **/
+/** partial: framework/variables **/
+/**  partial: framework/base **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_base\.scss}line{font-family:\000035}}
+.box, .red-box {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/** partial: test/components **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_components\.scss}line{font-family:\000037}}
+.red-box {
+  background-color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_components\.scss}line{font-family:\0000315}}
+.is-selected.red-box {
+  background-color: #cccccc;
+}

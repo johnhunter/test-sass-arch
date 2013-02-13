@@ -1,0 +1,28 @@
+/** partial: test/implementation **/
+
+// -- concrete classes ------
+
+.fat--red-box {
+	@extend %red-box;
+
+
+	// in our implementation we use local vars
+	// to calculate an override
+	$border: 3px;
+	$padding: $basePadding - ($border - 1);
+
+
+	padding: $padding;
+	border-width: $border;
+}
+
+.tall--red-box {
+  @extend %red-box;
+
+  min-height: 150px;
+}
+
+
+.red-box {
+  @extend %red-box;
+}

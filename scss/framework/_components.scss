@@ -1,0 +1,33 @@
+/** partial: test/components **/
+// inherit from base.scss
+
+
+
+// -- abstract classes -------
+%red-box {
+	@extend %box;
+
+
+	background-color: red;
+
+
+  // states defined in modules
+  &.is-selected {
+    background-color: $selectedBgColor;
+  }
+}
+
+
+
+// -- example instances -----------
+@if $IS_STYLEGUIDE == true {
+
+
+  // these css rules are only generated in styleguide css
+
+  .red-box {
+    @extend %red-box;
+  }
+
+
+}// end $IS_STYLEGUIDE

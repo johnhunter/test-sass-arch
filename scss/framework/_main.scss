@@ -1,0 +1,22 @@
+/** partial: framework/main **/
+
+// ensure styleguide flag is defined
+$IS_STYLEGUIDE: false !default;
+
+
+// global variables and mixins:
+@import "variables";
+
+
+
+// base abstract classes:
+// - these form the primative components on which components are based
+@import "base";
+
+
+
+// abstract component classes:
+// - these are extended in concrete components for production
+//   or examples for the styleguide
+@import "components";
+

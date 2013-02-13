@@ -1,0 +1,31 @@
+/** partial: framework/main **/
+/** partial: framework/variables **/
+/**  partial: framework/base **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_base\.scss}line{font-family:\000035}}
+.fat--red-box, .tall--red-box, .red-box {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/** partial: test/components **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_components\.scss}line{font-family:\000037}}
+.fat--red-box, .tall--red-box, .red-box {
+  background-color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/framework\/_components\.scss}line{font-family:\0000315}}
+.is-selected.fat--red-box, .is-selected.tall--red-box, .is-selected.red-box {
+  background-color: #cccccc;
+}
+
+/** partial: test/implementation **/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/test\/_implementation\.scss}line{font-family:\000035}}
+.fat--red-box {
+  padding: 8px;
+  border-width: 3px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/johnhunter\/Development\/css\/sass-arch\/scss\/test\/_implementation\.scss}line{font-family:\0000319}}
+.tall--red-box {
+  min-height: 150px;
+}
